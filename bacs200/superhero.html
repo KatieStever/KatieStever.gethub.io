@@ -20,57 +20,105 @@
                 padding-right:12px;
                 padding-top:12px;
                 padding-bottom:12px;
-		font-size:20px;
+		        font-size:20px;
             }
             table
             {
                 border-spacing:0px;
             }
+           .colheader
+      {
+          Background-color:violet; 
+      }
+      #tableheader
+      {
+          font-size:45px;
+      }
   </style>
 </head> 
 <body>
   <table>
-    <caption>Superhero Table </caption>
+    <caption id="tableheader">Superhero Table </caption>
     <tbody>
       <tr>
-        <th>Name</th>
-        <th>Alias</th>
-        <th>Image</th>
-        <th>Superpower</th>
-        <th>Weakness</th>
+        <th class="colheader">Name</th>
+        <th class="colheader">Alias</th>
+        <th class="colheader">Image</th>
+        <th class="colheader">Superpower</th>
+        <th class="colheader">Weakness</th>
       </tr>
       <tr>
         <td>Superman</td>
         <td>Clark Kent</td> 
         <td><a href="superman-g11d130c54_1920.png">
-          <img alt="superman picture" src="superman-g11d130c54_1920.png" height=100></a></td>
-        <td>Superhuman strength, cany fly, laser eyes</td>
-        <td>Kryptonite</td> 
+          <img alt="superman picture" src="superman-g11d130c54_1920.png" height="100"></a></td>
+        <td>
+            <ul>
+                <li>Superhuman strength</li> 
+                <li>Can fly</li>
+                <li>Laser eyes</li>
+            </ul>
+          </td>
+        <td>
+            <ul>
+            <li>Kryptonite</li>
+            </ul>
+          </td> 
       </tr>
       <tr>
         <td>Spiderman</td>
         <td>Peter Parker</td> 
         <td><a href="6976460952_ab5ce46619_c.jpg">
-          <img alt="spiderman picture" src="6976460952_ab5ce46619_c.jpg" height=100></a></td>
-        <td>Shoot webs from hands, super smart</td>
-        <td>Water, anti-venom, humanity</td>
+          <img alt="spiderman picture" src="6976460952_ab5ce46619_c.jpg" height="100"></a></td>
+        <td>
+            <ul>
+                <li>Shoot webs from hands</li>
+                <li>Super smart</li>
+                <li>Spider sense</li>
+            </ul>
+          </td>
+        <td>
+             <ul>
+                <li>Water</li>
+                <li>Anti-Venom</li>
+                <li>Is human</li>
+            </ul>
+          </td>
       </tr>
       <tr>
         <td>Black Widow</td>
         <td>Natasha Romanova</td> 
         <td><a href="7122168441_177a3c0fc9_c.jpg">
-          <img alt="Black Widow picture" src="7122168441_177a3c0fc9_c.jpg" height=100></a></td>
-        <td>Doesnt age, heals above human rate, hypnotist</td>
-        <td>Is human</td>
+          <img alt="Black Widow picture" src="7122168441_177a3c0fc9_c.jpg" height="100"></a></td>
+        <td> <ul>
+                <li>Doesnt age </li>
+                <li>Heals above human rate</li>
+                <li>Hypnotist</li>
+            </ul>
+          </td>
+        <td>
+            <ul>
+            <li>Is human</li>
+            </ul>
+          </td> 
       </tr>
        <tr>
         <td>Ironman</td>
         <td>Tony Stark</td> 
         <td><a href="MaxPixel.net-Marvel-Robot-Ironman-Superhero-Hero-Movies-Helmet-4454663.png">
-          <img alt="Ironman picture" src="MaxPixel.net-Marvel-Robot-Ironman-Superhero-Hero-Movies-Helmet-4454663.png" height=100></a></td>
-        <td>Rich</td>
-        <td>his ego</td>
+          <img alt="Ironman picture" src="MaxPixel.net-Marvel-Robot-Ironman-Superhero-Hero-Movies-Helmet-4454663.png" height="100"></a></td>
+        <td>
+            <ul>
+                <li>Rich</li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+            <li>His ego</li>
+            </ul>
+        </td>
       </tr>
+      </tbody>
   </table>
 </body>
 </html> 

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Entity Reference</title>
+    <style>
+        th, caption
+        {
+            font-size:20pt;
+            background-color:cyan;
+            border:3px solid darkcyan;
+            font-weight:bold;
+        }
+        table
+        {
+            border-spacing:0
+        }
+        td
+        {
+            border:1px solid #606060;
+        }
+        .colheader
+        {
+            colum=width:300px
+        }
+        .rowheader
+        {
+            font-size:45px;
+        }
+        #pagetitle
+        {
+            font-size:50px;
+        }
+        thead th
+        {
+            background-color:aquamarine
+        }
+    </style>
+</head>
+
+	<body>
+		<h1 id="pagetitle">Welcome to my "awesome&quot; entity reference&nbsp;&lt;web&gt;page!</h1>
+		
+		<table style="border:3px solid black">
+          <caption>Reserved Characters</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="colheader">Character</th>
+                    <th scope="col" class="colheader">Entity Name</th>
+                    <th scope="col" class="colheader">Entity Value(dec)</th>
+                    <th scope="col" class="colheader">Entity Value(hex)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="rowheader">&lt;</th>
+                    <td>&nbsp;&amp;lt;</td>
+                    <td>&nbsp;&amp;#60;</td>
+                    <td>&amp;#x0003C;&nbsp;</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="rowheader">&gt;</th>
+                    <td>&nbsp;&amp;gt;</td>
+                    <td>&nbsp;&amp;#62;</td>
+                    <td>&nbsp;&amp;#x0003E;</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="rowheader">&quot;</th>
+                    <td>&nbsp;&amp;quot;</td>
+                    <td>&nbsp;&amp;#34;</td>
+                    <td>&nbsp;&amp;#x00022;</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="rowheader">&amp;</th>
+                    <td>&nbsp;&amp;amp;</td>
+                    <td>&nbsp;&amp;#38;</td>
+                    <td>&nbsp;&amp;#x00026;</td>
+                </tr>
+            </tbody>
+    </table>
+
+
+		
+	</body>
+</html>

@@ -1,0 +1,50 @@
+
+      :root
+      {
+          --light-pink: rgb(255,192,203);
+      }
+  *{
+    text-align:center;
+    list-style-position: inside;
+    padding-left:0pt;
+  }
+      body
+      {
+          background-color:var(--light-pink);
+      }
+      .hw
+      {
+          font-size:75px;
+          background-color:palevioletred;
+          border:3px dashed red;
+      }
+      h2
+      {
+          font-size:30px;
+          color:palevioletred;
+      }
+      .spider
+      {
+          font-size:40px;
+          background-color:transparent;
+          color:#A20C0F;
+            
+      }
+      #want
+      {
+          font-size:50px;
+          color:black;
+      }
+      #list
+      {
+          font-size:30px;
+          color:palevioletred;
+          float:right;
+      }
+      .alive
+      {
+          Background-color:#996B96;
+          display:inline;
+      }/* CSS Document */
+
+ 

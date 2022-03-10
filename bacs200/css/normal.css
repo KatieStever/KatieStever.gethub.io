@@ -3,31 +3,37 @@
     text-align: center;
     
 }
+@font-face
+{
+    font-family:'dosis';
+    src: url("fonts/Dosis-VariableFont_wght.ttf")format('truetype');
+}
+@font-face
+{
+    font-family:'corm';
+    src: url("fonts/CormorantGaramond-Regular.ttf")format('truetype');
+}
 h1
 {
-    font-family:'NotoSerif';
-    src: url("fonts/NotoSerifDisplay-VariableFont_wdth,wght.ttf")format('truetype');
+    font-family:'dorsis';
     font-size:40px;
     color:black;
 }
 h2
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:17px;
     color:black;
 }
 h3
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:17px;
     color:black;
 }
 p
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:15px;
     color:black;
 }
@@ -37,22 +43,19 @@ body
 }
 ul
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:17px;
     color:dimgray;
 }
 li
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:15px;
     color:dimgray;
 }
 ol
 {
-    font-family:'Sourcesans';
-    src: url("fonts/SourceSansPro-Regular.ttf")format('truetype');
+    font-family:'corm';
     font-size:17px;
     color:dimgray;
 }

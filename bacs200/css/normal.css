@@ -22,19 +22,19 @@ h1
 h2
 {
     font-family:'corm';
-    font-size:17px;
+    font-size:20px;
     color:black;
 }
 h3
 {
     font-family:'corm';
-    font-size:17px;
+    font-size:20px;
     color:black;
 }
 p
 {
     font-family:'corm';
-    font-size:15px;
+    font-size:17px;
     color:black;
 }
 body
@@ -50,7 +50,7 @@ ul
 li
 {
     font-family:'corm';
-    font-size:15px;
+    font-size:17px;
     color:dimgray;
 }
 ol
@@ -58,4 +58,11 @@ ol
     font-family:'corm';
     font-size:17px;
     color:dimgray;
+}
+table
+{
+    font-family:'corm';
+    font-size:17px;
+    color:black;
+    text-align: center;
 }

@@ -1,2 +1,17 @@
 /* CSS Document */
 
+h2
+{
+    text-align: left;
+    color:darkgreen;
+}
+h3
+{
+    text-align: left;
+    color:darkgreen;
+}
+h1 
+{
+    font-size: 60px;
+    color:darkgreen;
+}

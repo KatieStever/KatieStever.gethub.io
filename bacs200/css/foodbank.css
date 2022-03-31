@@ -4,14 +4,43 @@ h2
 {
     text-align: left;
     color:darkgreen;
+    background-color: white;
+    text-decoration: underline darkgreen;
+    padding:2%
 }
 h3
 {
     text-align: left;
     color:darkgreen;
+    background-color: white;
+    text-decoration: underline darkgreen;
+    padding:2%
 }
 h1 
 {
-    font-size: 60px;
+    font-size:10vw;
     color:darkgreen;
+    background-color: white;
+    border: dashed darkgreen;
+    padding:4%
+}
+h4
+{
+    text-align: left;
+    color:darkgreen;
+    background-color: white;
+    text-decoration: underline darkgreen;
+    padding:2%
+}
+li
+{
+    font-size:2vw;
+}
+h5
+{
+    text-align: left;
+    color:darkgreen;
+    background-color: white;
+    text-decoration: underline darkgreen;
+    padding:2%
 }

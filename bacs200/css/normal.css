@@ -16,37 +16,37 @@
 h1
 {
     font-family:'dorsis';
-    font-size:10vw;
+    font-size:7vw;
     color:black;
 }
 h2
 {
     font-family:'corm';
-    font-size:3vw;
+    font-size:1.5vw;
     color:black;
 }
 h3
 {
     font-family:'corm';
-    font-size:3vw;
+    font-size1:1.5vw;
     color:black;
 }
 h4
 {
     font-family:'corm';
-    font-size:3vw;
+    font-size:1.5vw;
     color:black;
 }
 h5
 {
     font-family:'corm';
-    font-size:3vw;
+    font-size:1.5vw;
     color:black;
 }
 p
 {
     font-family:'corm';
-    font-size:2vw;
+    font-size:.8vw;
     color:black;
 }
 body
@@ -56,25 +56,25 @@ body
 ul
 {
     font-family:'corm';
-    font-size:1.5vw;
+    font-size:.7vw;
     color:dimgray;
 }
 li
 {
     font-family:'corm';
-    font-size:1.5vw;
+    font-size:.7vw;
     color:dimgray;
 }
 ol
 {
     font-family:'corm';
-    font-size:1.5vw;
+    font-size:.7vw;
     color:dimgray;
 }
 table
 {
     font-family:'corm';
-    font-size:1.5vw;
+    font-size:.7vw;
     color:black;
     text-align: center;
 }

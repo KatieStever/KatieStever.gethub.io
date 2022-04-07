@@ -39,12 +39,31 @@
       {
           font-size:30px;
           color:palevioletred;
-          float:right;
+          /*float:right;*/
       }
       .alive
       {
           Background-color:#996B96;
           display:inline;
-      }/* CSS Document */
+      }
+img
+{
+    width: 600px
+}
+@media all and (max-width: 600px)
+{ 
+   .hw
+    {
+        font-size: 7vw;
+    }
+    h2
+    {
+        font-size: 5vw;
+    }
+    .spider 
+    {
+        font-size:4vw;
+    }
+}/* CSS Document */
 
  

@@ -28,7 +28,7 @@ h2
 h3
 {
     font-family:'corm';
-    font-size1:1.5vw;
+    font-size:1.5vw;
     color:black;
 }
 h4
@@ -81,4 +81,11 @@ table
 ifrmae
 {
     border-width:0px;
+}
+@media all and (max-width: 600px)
+{ 
+    h1
+    {
+        font-size: 5vw;
+    }
 }
